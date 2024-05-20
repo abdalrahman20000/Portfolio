@@ -18,24 +18,49 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <span class="l-logo">abd alrahman <span class="r-logo">    mansour ata</span></span>
+        <div class="up-header">
+            <div class="logo">
+                <span class="l-logo">abd alrahman 
+                    <span class="r-logo">mansour ata</span>
+                </span>
+            </div>
+            
+            <nav class="l-nav">
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <nav class="r-nav">
+                <div class="header-icon"><a href="https://github.com/abdalrahman20000" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div class="header-icon"><a href="https://www.linkedin.com/in/abd-alrahman-mansour-ata-259115297/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div class="menu">
+                    <!-- <input type="checkbox" id="box-menu"> -->
+                    <label for="box-menu" id="box"><i class="fa-solid fa-bars"></i></label>
+                </div>
+            </nav>
         </div>
         
-        <nav class="l-nav">
-            <a href="#home">Home</a>
-            <!-- <a href="#about">About</a> -->
-            <a href="#skills">Skills</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <nav class="r-nav">
-            <div class="header-icon"><a href="https://github.com/abdalrahman20000" target="_blank"><i class="fa-brands fa-github"></i></a></div>
-            <div class="header-icon"><a href="https://www.linkedin.com/in/abd-alrahman-mansour-ata-259115297/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
-        </nav>
+
+        <section class="mobile-menu">
+            <div class="nav-menu">
+                <a href="#home">Home <i class="fa-solid fa-house"></i> </a>
+                <a href="#skills">Skills <i class="fa-solid fa-percent"></i> </a>
+                <a href="#project">Project <i class="fa-solid fa-list-check"></i> </a>
+                <a href="#contact">Contact <i class="fa-solid fa-phone-volume"></i> </a>
+            </div>
+            <!-- <br> -->
+            <div class="icon-menu">
+                <a href="https://github.com/abdalrahman20000" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abd-alrahman-mansour-ata-259115297/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        
+        </section>
     </header>
 
+
     <section class="h-section" id="home">
+        <video src="picture/27239-362518579.mp4" loop muted autoplay class="bg-video"></video>
         <div class="h-details">
             <h2>Hello,
                 <br>I'm <span>Abd alrahman,</span> a 
@@ -44,11 +69,7 @@
                     University major in computer information systems,<br>
                     interested and passionate about programming
                 </p>
-                
             </h2>
-        </div>
-        <div class="p-picture">
-            
         </div>
     </section>
 
@@ -56,7 +77,7 @@
         <h2 class="title">skills</h2>
         <div class="all-skills">
             <div class="related">
-                <h3>Related Skills</h3>
+                <h3>Technical  Skills</h3>
                 <!----------- !!! skill items !!! -------------->
                 <div class="skill-item">
                     <h4>HTML</h4>
@@ -147,7 +168,7 @@
                 <!----------- !!! projetc items !!! -------------->
                 <div class="p-item">
                     <img src="picture/eyeglasses.png" alt="">
-                    <p>Online store for selling eyeglasses</p>
+                    <h4>Online store for selling eyeglasses</h4>
                     <span class="block">
                         <p>HTML | CSS</p>
                         <p class="view-btn"><a href="https://abdalrahman20000.github.io/testProj/" target="_blank">View Website</a></p>
@@ -156,7 +177,7 @@
                 <!----------- !!! projetc items !!! -------------->
                 <div class="p-item">
                     <img src="picture/unProj.png" alt="">
-                    <p>TTU Campus Guide 3D</p>
+                    <h4>TTU Campus Guide 3D</h4>
                     <span class="block">
                         <p>Blender 3D | Unity Engine</p>
                         <p class="view-btn"><a href="https://drive.google.com/file/d/1H70uKLT56d2YSYyjVrht7metqUHulu_r/view?usp=sharing" target="_blank">View Document</a></p>
@@ -165,7 +186,7 @@
                 <!----------- !!! projetc items !!! -------------->
                 <div class="p-item">
                     <img src="picture/myGame.png" alt="">
-                    <p>Survival Game</p>
+                    <h4>Survival Game</h4>
                     <span class="block">
                         <p>Unity Engine</p>
                         <p class="view-btn"><a href="https://drive.google.com/file/d/1kLGfuS0IXV7VOmlyeq5Fw44Ye2w6_07g/view?usp=sharing" target="_blank">Watch Video</a></p>
@@ -179,31 +200,30 @@
     </section>
 
     <section class="contact" id="contact">
-        <h4>Contact Us</h4>
         <h2>Ways To Contact Me</h2>
 
         <div class="items">
             <!----------- !!! contact items !!! -------------->
             <div class="contact-item">
-                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-icon"><a href="mailto:abd.m.ata.2000@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></div>
                 <div class="contact-info"><a href="mailto:abd.m.ata.2000@gmail.com" target="_blank">abd.m.ata@gmail.com</a></div>
             </div>
             <!----------- !!! contact items !!! -------------->
             <!----------- !!! contact items !!! -------------->
             <div class="contact-item">
-                <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <div class="contact-icon"><a href="tel:+962 782717165" target="_blank"><i class="fa-solid fa-phone-volume"></i></a></div>
                 <div class="contact-info"><a href="tel:+962 782717165" target="_blank">+962 782717165</a></div>
             </div>
             <!----------- !!! contact items !!! -------------->
             <!----------- !!! contact items !!! -------------->
             <div class="contact-item">
-                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="contact-icon"><a href="https://github.com/abdalrahman20000" target="_blank"><i class="fa-brands fa-github"></i></a></div>
                 <div class="contact-info"><a href="https://github.com/abdalrahman20000" target="_blank">abdalrahman20000</a></div>
             </div>
             <!----------- !!! contact items !!! -------------->
             <!----------- !!! contact items !!! -------------->
             <div class="contact-item">
-                <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="contact-icon"><a href="https://www.linkedin.com/in/abd-alrahman-mansour-ata-259115297/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
                 <div class="contact-info"><a href="https://www.linkedin.com/in/abd-alrahman-mansour-ata-259115297/" target="_blank">abd-alrahman-mansour-ata</a></div>
             </div>
             <!----------- !!! contact items !!! -------------->
@@ -211,10 +231,15 @@
     </section>
 
     <footer>
+        <div class="l-footer-small"><span class="footer-span">A</span></div>
+
         <div class="l-footer"><span class="footer-span">Abd alrahman ata</span></div>
         
         <div class="r-footer">&copy; Copyright 2024 | All Right Reserved</div>
         
     </footer>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
