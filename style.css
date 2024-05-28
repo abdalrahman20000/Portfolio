@@ -503,7 +503,8 @@ header {
 
 .p-item h4 {
     text-align: center;
-    text-shadow: 15px 15px 3px rgba(1, 1, 1, .50);
+    /* text-shadow: 15px 15px 3px rgba(1, 1, 1, .50); */
+    text-shadow: 8px 8px 8px rgba(1, 1, 1, .50);
 
 }
 
@@ -547,7 +548,8 @@ header {
     width: 400px;
     height: 220px;
     /* border-bottom: 2px solid; */
-    box-shadow: 15px 15px 8px rgba(1, 1, 1, .50);
+    /* box-shadow: 15px 15px 8px rgba(1, 1, 1, .50); */
+    box-shadow: 8px 8px 8px rgba(1, 1, 1, .50);
 }
 
 
